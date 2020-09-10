@@ -108,7 +108,7 @@ const Place = ({
       </ul>
       <footer className="Place__footer">
         {price === "0" ? (
-          <Link to={`/place/${area.id}/${item.id}`} className="Place__order">
+          <Link to={`/place/${area.id}/${item.id}`} className="disabled-link">
             Корзина пуста
           </Link>
         ) : (

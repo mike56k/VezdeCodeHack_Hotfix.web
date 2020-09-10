@@ -1,4 +1,5 @@
-.Place {}
+.Place {
+}
 
 .Place__header {
   position: fixed;
@@ -47,7 +48,7 @@
   flex-wrap: wrap;
   height: 120px;
   margin-top: 67px;
-  border-bottom: 1px solid rgba(161, 161, 161, .3);
+  border-bottom: 1px solid rgba(161, 161, 161, 0.3);
   background-color: #e6e6e6;
 }
 
@@ -164,7 +165,19 @@
   background-color: #4bb34b;
   color: #fff;
 }
-
+.disabled-link {
+  flex-grow: 1;
+  height: 65px;
+  border: 0;
+  border-radius: 25px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: gray;
+  color: #fff;
+  pointer-events: none;
+}
 .Place__products-wrapper {
   position: relative;
 }
